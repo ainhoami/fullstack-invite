@@ -13,8 +13,8 @@ function App() {
       <div>
       <ul className="nav">
         <li> <Link to ="/"> Invite </Link> </li>
-        <li> <Link to ="/going"> Going </Link> </li>
-        <li> <Link to ="/notgoing">Not Going </Link> </li>
+        <li> <Link to ="/going">Going</Link> </li>
+        <li> <Link to ="/notgoing">Not Going</Link> </li>
       </ul>
       <Route path ="/" exact component={Invite}/>
       <Route path ="/going" component={Going}/>

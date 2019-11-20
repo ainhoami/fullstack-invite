@@ -20,3 +20,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.people, .person{
+  width: 250px;
+  background-color: #eee;
+  /* margin:auto; */
+  padding: 10px auto;
+  margin:7px;
+}
+.person{
+  margin:auto;
+  font-size: 12px;
+
+}
+
+.count{
+  width: 250px;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imgcontainer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height:auto;
+  padding:40px 0;
+border: 1px solid #ddd;
+}
+.personInfo{
+  border: 1px solid #ddd;
+  border-top-color: none;
+  padding-left: 10px;
+}
+
+
+.imgcontainer img{
+  border-radius: 50%;
+}
+
+.yesnobutton{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-top-color: none;
+
+}
+
+.bold{
+  font-weight: bold;
+}
+.yesnobutton button{
+  height:30px;
+  width:30px;
+  border:none;
+  color: white;
+
+
+}
+
+.yesnobutton button:first-child{
+  background-color: red;
+}
+
+.yesnobutton button:nth-child(2){
+  background-color: green;
+}
+
+.nav{
+  list-style: none;
+  display: flex;
+  width:250px;
+  margin: 20px auto;
+justify-content:space-around;
+
+}
+
+ul{
+  padding: 0;
+}
+
+.container{
+  width:1100px;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content:start;
+  font-size: 12px;
+}
